@@ -12,6 +12,7 @@
   --accent-color: #2196f3;
   --main-backround-color: #2f303a;
   --secondary-bacground-color: #2196f3;
+  --third-bacground-color: #f5f4fa;
 }
 body {
   font-family: "roboto", sans-serif;
@@ -169,7 +170,7 @@ a {
 }
 /* ------------------TEAM-------------------- */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--third-bacground-color);
 }
 .team-title {
   padding-top: 94px;
@@ -226,10 +227,10 @@ a {
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .footer-websudio:visited {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .footer-studio {
   color: #fff;
@@ -297,12 +298,12 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   padding: 6px 22px 6px 22px;
-  background-color: #f5f4fa;
+  background-color: var(--third-bacground-color);
 }
 .p-button:hover,
 .p-button:focus {
   color: #fff;
-  background-color: #2196f3;
+  background-color: var(--secondary-bacground-color);
   cursor: pointer;
 }
 /* ------------------WORKS SECTION-------------------- */
