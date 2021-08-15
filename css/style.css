@@ -95,14 +95,10 @@ a {
 }
 /* ------------------HERO-------------------- */
 .main-first-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   background-color: var(--main-backround-color);
-  height: 600px;
 }
 .title-text {
+  display: block;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -111,8 +107,11 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
+  padding-top: 200px;
 }
 .main-button {
+  margin-top: 30px;
+  margin-bottom: 200px;
   font-family: inherit;
   margin-top: 30px;
   width: 200px;
