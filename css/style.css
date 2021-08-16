@@ -93,6 +93,9 @@ a {
 .phone-number:focus {
   color: var(--accent-color);
 }
+.nav-element-blue.current {
+  color: var(--accent-color);
+}
 /* ------------------HERO-------------------- */
 .main-first-section {
   background-color: var(--main-backround-color);
@@ -110,18 +113,17 @@ a {
   padding-top: 200px;
 }
 .main-button {
-  margin-top: 30px;
   margin-bottom: 200px;
   font-family: inherit;
   margin-top: 30px;
-  width: 200px;
-  height: 50px;
+  padding: 10px 32px 10px 32px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   background-color: var(--secondary-bacground-color);
   color: var(--main-title-color);
+  min-width: 200px;
 }
 .button {
   border-radius: 4px;
@@ -251,7 +253,7 @@ a {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
-.address-kink {
+.address-link {
   color: #fff;
 }
 .address-link:visited {
@@ -267,8 +269,7 @@ a {
 }
 .footer-email,
 .footer-phone-number {
-  color: #fff;
-  opacity: 0.6;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* ------------------!!!!PORTFOLIO!!!!-------------------- */
